@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 50%;
+    margin: auto;
+    background-color: rgb(236, 236, 236);
+}
+.form {
+    width: 70%;
+    margin: auto;
+}
+.first-label , .secand-label{
+    display: flex;flex-direction: column; text-align: center;margin: 10px 0;
+}
+.content input{
+    padding: 10px;border-radius: 40px;border: none;border: 1px solid black;
+}
+.pic {
+    padding: 30px 0;
+    border: 2px dashed gray;
+    text-align: center;
+}
+.photo input {
+    display: none;
+}
+.photo label {
+    border: 2px dashed gray;
+    padding: 10px;
+    margin-bottom: 140px;
+}
+#submit{
+    background-color: blue;padding: 10px;color: white;border-radius: 40px;
+}
+#img-one {
+    margin: 20px 0;
+}
+.output-content{
+    margin: 20px 0;display: flex;direction: column;padding: 20px;background-color: #fff;border-radius: 18px;
+}
+.output p{
+    font-size: 30px;
+    padding: 10px 0;
+}
+.output-cta {
+    font-size: 25px; display: flex; gap: 60px;justify-content: center;margin: 19px 0;
+}
+.like-link.clicked {
+    color: blue; /* Blue color for clicked state */
+}
+a{
+
+    cursor: pointer;
+}
